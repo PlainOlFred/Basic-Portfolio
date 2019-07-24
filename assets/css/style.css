@@ -1,0 +1,24 @@
+header{
+
+}
+
+#name_block{
+    float: left;
+    background-color: green;
+    margin: 0px;
+}
+
+#links_block{
+    float: right;
+}
+
+#container{
+    background-color: #6ea3da;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: none;
+  }
