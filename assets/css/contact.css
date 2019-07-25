@@ -1,3 +1,24 @@
-#email_me_submit{
-    
-}
+/*so there fonts match the parent */
+button, input, select, textarea {
+    font-family : inherit;
+    font-size   : 100%;
+    border: 1px solid #dddddd;
+  }
+
+  #submit_btn{
+      
+    background-color: #4aaaaa5;
+      color: white;
+  }
+
+  .form {
+      margin:10px;
+
+  }
+
+  #messege{
+      
+      
+      
+  }
+     
