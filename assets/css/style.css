@@ -1,8 +1,10 @@
 *{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18pt; 
     margin: 0;
     padding: 0;
     border: 0;
+    
 }
 
 h1{
@@ -14,6 +16,10 @@ h2{
     font-size: 24pt;
     border-bottom: 2px #cccccc solid;
     padding-bottom: 20px;
+}
+
+p{
+    color: #777777;
 }
     
 
@@ -49,17 +55,32 @@ section{
 /* formatting links */
 a{
     text-decoration: none;
+    color: #777777;
 }
 .links{
     font-size: 20pt;
     float: right;
+    padding: 20px;
+}
+a:hover{
+    color:#4aaaa5;
 }
 
 .links li{
     display: inline;
+    color: #;
 }
 
 .content-title{
     color: #4aaaa5;
     padding: 20px;
+}
+
+footer{
+    height: 8px;
+    width: 100%;
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 0px;
+    
 }

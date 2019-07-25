@@ -1,3 +1,10 @@
-p{
+img{
     float: left;
+    margin: 20px;
+    border: 2px solid black;
 }
+ p{
+     line-height: 2;
+     margin-left: 20px;
+     padding: 10px;
+ }
