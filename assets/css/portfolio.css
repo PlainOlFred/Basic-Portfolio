@@ -1,1 +1,22 @@
-<>
+.image-block{
+    position: relative;
+    margin: 20px;
+    border: 2px hidden black;
+
+}
+.image-bar{
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img:hover{
+    border: 3px solid #4aaaa5;
+    height: 194px;
+    width: 194px;
+}
