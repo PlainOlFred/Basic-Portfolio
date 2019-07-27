@@ -9,19 +9,17 @@
     bottom: 10px;
     background-color: #4aaaa5;
     color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: center;
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-img:hover{
-    border: 3px solid #4aaaa5;
-    height: 194px;
-    width: 194px;
+
+
+.image-bar:hover{
+    background-color: white;
+    color: #4aaaa5;
 }
-]#smbt_btn{
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-}
+
