@@ -1,24 +1,36 @@
-/*so there fonts match the parent */
-button, input, select, textarea {
-    font-family : inherit;
-    font-size   : 100%;
-    border: 1px solid #dddddd;
-  }
+form{
+  border: 2px solid #666666;
+}
 
-  #submit_btn{
-      
-    background-color: #4aaaaa5;
-      color: white;
-  }
 
-  .form {
-      margin:10px;
+input{
+  border: 1px solid #cccccc;
+  /* margin-right:10px; */
+  width: 98.225%;
+}
 
-  }
+input::placeholder{
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', sans-serif;
+  font-size: 10pt;
+}
 
-  #messege{
-      
-      
-      
-  }
-     
+textarea{
+  border: 1px solid #cccccc;
+}
+
+h3{
+  font-size: 12pt;
+  padding-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 3px;
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', sans-serif;
+}
+
+.main_form{
+  padding: 10px;
+  border: hidden;
+}
+
