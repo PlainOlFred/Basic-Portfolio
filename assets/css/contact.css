@@ -33,3 +33,11 @@ h3{
   padding: 10px;
   border: hidden;
 }
+
+#smbt_btn{
+  background-color: #4aaaa5;
+  padding: 10px 25px;
+  font-size: 10pt;
+  color: white;
+  font-family: 'Arial', 'Helvetica Neue', sans-serif
+}
