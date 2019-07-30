@@ -106,3 +106,17 @@ h5{
     left: 665px;
     margin-bottom: 10px;
 }
+/* media queires */
+/* tablets */
+@media screen and (max-width: 768px){
+    section{
+        width: 90%;
+    }
+
+}
+/* phones pixel iphone 6/7/8 plkuse*/
+@media screen and (max-width: 414px){
+
+}
+/* samller phone */
+@media screen and (max-width: 375px)
