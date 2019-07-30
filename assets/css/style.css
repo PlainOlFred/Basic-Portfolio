@@ -37,12 +37,15 @@ nav{
 
 section{
     width: 956px;
+    
     /* does border need to be deducted from 960? */
     background-color: #ffffff;
-    position: absolute;
-    left: 200px;
+    /* position: absolute; */
+    /* left: 200px; */
     border: 2px #dddddd solid;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .yourname{
@@ -52,7 +55,7 @@ section{
     text-align: center;
     width: 200px;
     position: absolute;
-    left: 200px;
+    left: 237px;
     padding: 20px;
 }
 /* formatting links */
@@ -65,7 +68,7 @@ a {
     float: right;
     padding: 20px;
     padding-top: 30px;
-    margin-right: 260px;
+    margin-right: 225px;
 }
 
 a:hover, a:focus{
