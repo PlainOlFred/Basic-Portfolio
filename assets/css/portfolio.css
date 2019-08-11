@@ -14,9 +14,10 @@
 
 .image-block{
     margin: 20px;
-    height: 200px;
+    height: 150px;
     border: 2px hidden black;
     display: block;
+    padding: 20px; 
 }
 
 .portfolio{
